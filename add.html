@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CourseEnroll+</title>
+</head>
+<body>
+
+    <h1>CourseEnroll+</h1>
+
+    <form>
+
+        <h2>Student Information</h2>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Student ID:</label><br>
+        <input type="text" name="studentId" required><br><br>
+
+        <h2>Select Courses</h2>
+
+        <label><input type="checkbox" name="course" value="Web Development"> Web Development (3 credits)</label><br>
+        <label><input type="checkbox" name="course" value="Data Structures"> Data Structures (4 credits)</label><br>
+        <label><input type="checkbox" name="course" value="UI/UX Basics"> UI/UX Basics (2 credits)</label><br>
+        <label><input type="checkbox" name="course" value="Computer Networks"> Computer Networks (3 credits)</label><br>
+        <label><input type="checkbox" name="course" value="Ethics in IT"> Ethics in IT (1 credit)</label><br><br>
+
+        <h2>Class Schedule</h2>
+
+        <label>Preferred Day:</label><br>
+        <select name="day" required>
+            <option value="">-- Select --</option>
+            <option>Monday</option>
+            <option>Wednesday</option>
+            <option>Friday</option>
+        </select><br><br>
+
+        <label>Time Slot:</label><br>
+        <select name="time" required>
+            <option value="">-- Select --</option>
+            <option>9 AM - 11 AM</option>
+            <option>1 PM - 3 PM</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit Registration">
+
+    </form>
+
+</body>
+</html>
